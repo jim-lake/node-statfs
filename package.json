@@ -1,0 +1,25 @@
+{
+  "name": "node-statfs",
+  "version": "0.0.1",
+  "license": "MIT",
+  "repository": "jim-lake/statfs",
+  "files": [
+    "binding.gyp",
+    "statfs.js",
+    "src/"
+  ],
+  "main": "statfs.js",
+  "scripts": {
+    "lint": "standard"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+  },
+  "engines": {
+    "node": ">=8.6.0"
+  },
+  "os": [
+    "darwin"
+  ]
+}
